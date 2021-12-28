@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accordion</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style>
+      body {
+        padding: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!--ACCORDION-->
+    <div class="accordion" id="aParent">
+      <div class="accordion-item">
+        <!-- Acoordion-Header -->
+        <h3 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            data-bs-target="#collapseThis"
+            data-bs-toggle="collapse"
+          >
+            Lorem ipsum dolor sit amet.
+          </button>
+        </h3>
+        <!-- Accordion Body -->
+        <div
+          class="accordion-collapse collapsed show"
+          id="collapseThis"
+          data-bs-parent="#aParent"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+            modi error! Nam, aliquam nobis. Laborum, officia numquam sed,
+            doloribus itaque quod sequi, similique cum nisi magni provident sint
+            officiis natus et facere aut facilis voluptatem? Impedit ex adipisci
+            quo corrupti vel et harum non. Voluptatibus praesentium eius minus
+            nulla officia.
+          </div>
+        </div>
+      </div>
+      <!-- Another Item in Accordion -->
+      <div class="accordion-item">
+        <h3 class="accordiion-header">
+          <button
+            class="accordion-button"
+            data-bs-target="#secondCollapse"
+            data-bs-toggle="collapse"
+          >
+            Lorem ipsum dolor sit amet.
+          </button>
+        </h3>
+        <!--Accordion Body-->
+        <div
+          class="accordion-collapse collapse"
+          id="secondCollapse"
+          data-bs-parent="#aParent"
+        >
+          <div class="accordion-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repudiandae ut veritatis quibusdam modi? Recusandae blanditiis
+            praesentium veritatis sit vel veniam impedit hic dignissimos
+            assumenda molestiae error iure, dolorum, est accusamus maxime
+            voluptate? Pariatur dicta perferendis voluptatibus maxime tempora
+            quia natus velit, quas nulla quis consequatur fugiat, nostrum nemo.
+            Enim, accusamus.
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion Item -->
+      <div class="accordion-item">
+        <!-- Header -->
+        <div class="accordion-header">
+          <h3
+            class="accordion-button"
+            data-bs-target="#lastAccordion"
+            data-bs-toggle="collapse"
+          >
+            Lorem ipsum dolor sit amet.
+          </h3>
+        </div>
+        <!-- Accordion Body -->
+        <div
+          class="accordion-collapse collapse"
+          id="lastAccordion"
+          data-bs-parent="#aParent"
+        >
+          <div class="accordion-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+            aspernatur quae nemo soluta nulla eum animi fuga vero nostrum saepe
+            unde pariatur vitae corporis officiis sapiente, nobis debitis, fugit
+            cupiditate. Earum sequi voluptatum minus corrupti eligendi quisquam,
+            doloremque fugiat deleniti nisi cumque tenetur, magnam quam ab
+            beatae similique voluptatibus asperiores!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <br />
+    <!-- ACCORDION FLUSH -->
+    <div class="accordion accordion-flush" id="aParent">
+      <div class="accordion-item">
+        <!-- Acoordion-Header -->
+        <h3 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            data-bs-target="#collapseThis"
+            data-bs-toggle="collapse"
+          >
+            Lorem ipsum dolor sit amet.
+          </button>
+        </h3>
+        <!-- Accordion Body -->
+        <div
+          class="accordion-collapse collapsed show"
+          id="collapseThis"
+          data-bs-parent="#aParent"
+        >
+          <div class="accordion-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+            modi error! Nam, aliquam nobis. Laborum, officia numquam sed,
+            doloribus itaque quod sequi, similique cum nisi magni provident sint
+            officiis natus et facere aut facilis voluptatem? Impedit ex adipisci
+            quo corrupti vel et harum non. Voluptatibus praesentium eius minus
+            nulla officia.
+          </div>
+        </div>
+      </div>
+      <!-- Another Item in Accordion -->
+      <div class="accordion-item">
+        <h3 class="accordiion-header">
+          <button
+            class="accordion-button"
+            data-bs-target="#secondCollapse"
+            data-bs-toggle="collapse"
+          >
+            Lorem ipsum dolor sit amet.
+          </button>
+        </h3>
+        <!--Accordion Body-->
+        <div
+          class="accordion-collapse collapse"
+          id="secondCollapse"
+          data-bs-parent="#aParent"
+        >
+          <div class="accordion-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repudiandae ut veritatis quibusdam modi? Recusandae blanditiis
+            praesentium veritatis sit vel veniam impedit hic dignissimos
+            assumenda molestiae error iure, dolorum, est accusamus maxime
+            voluptate? Pariatur dicta perferendis voluptatibus maxime tempora
+            quia natus velit, quas nulla quis consequatur fugiat, nostrum nemo.
+            Enim, accusamus.
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion Item -->
+      <div class="accordion-item">
+        <!-- Header -->
+        <div class="accordion-header">
+          <h3
+            class="accordion-button"
+            data-bs-target="#lastAccordion"
+            data-bs-toggle="collapse"
+          >
+            Lorem ipsum dolor sit amet.
+          </h3>
+        </div>
+        <!-- Accordion Body -->
+        <div
+          class="accordion-collapse collapse"
+          id="lastAccordion"
+          data-bs-parent="#aParent"
+        >
+          <div class="accordion-body">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
+            aspernatur quae nemo soluta nulla eum animi fuga vero nostrum saepe
+            unde pariatur vitae corporis officiis sapiente, nobis debitis, fugit
+            cupiditate. Earum sequi voluptatum minus corrupti eligendi quisquam,
+            doloremque fugiat deleniti nisi cumque tenetur, magnam quam ab
+            beatae similique voluptatibus asperiores!
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

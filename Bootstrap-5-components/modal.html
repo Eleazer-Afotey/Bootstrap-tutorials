@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style>
+      body {
+        padding: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-5">
+      <button
+        class="btn btn-success"
+        data-bs-target="#openModal"
+        data-bs-toggle="modal"
+      >
+        Show modal
+      </button>
+      <!-- NORMAL MODAL -->
+      <div class="modal fade" id="openModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Title</h4>
+              <button class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              quae provident quibusdam magnam quo, est autem distinctio, soluta
+              nihil eius excepturi, delectus minus quis. Tenetur.
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
