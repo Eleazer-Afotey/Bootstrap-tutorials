@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alert Boxes</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <style>
+      body {
+        padding: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!--ALERTS-->
+    <div class="alert alert-warning">Alert !</div>
+    <div class="alert alert-primary">Alert !</div>
+    <div class="alert alert-secondary">Alert !</div>
+
+    <p>
+      ---------------------------------------------------------------------------
+    </p>
+
+    <!--ALERT LINKS-->
+    <div class="alert alert-success">
+      Alert <a href="#" class="alert-link">link</a>
+    </div>
+    <div class="alert alert-danger">
+      Alert! <a href="#" class="alert-link">Link</a>
+    </div>
+
+    <p>
+      ---------------------------------------------------------------------------
+    </p>
+
+    <!--ALERT BOXES-->
+    <div class="alert alert-info">
+      <h4 class="alert-heading">Alert Heading !!</h4>
+      <hr />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi expedita
+        incidunt officia consequatur. Consectetur ratione veritatis impedit
+        asperiores fuga. Atque provident inventore fugit distinctio animi!
+      </p>
+    </div>
+
+    <!--Alert box WITH ICONS-->
+    <div class="alert alert-primary d-flex">
+      <svg
+        style="width: 25"
+        class="w-6 h-6"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+        ></path>
+      </svg>
+      <div class="ps-3">Alert With an icon</div>
+    </div>
+
+    <p>
+      ---------------------------------------------------------------------------
+    </p>
+    <div class="alert alert-success alert-dismissible fade show">
+      Alert Dismissing
+      <button class="btn btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <script src="../javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

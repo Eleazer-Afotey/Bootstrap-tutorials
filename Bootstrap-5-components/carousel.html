@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <div class="carousel slide" id="parentCarousel" data-bs-ride="carousel">
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            data-bs-slide-to="0"
+            data-bs-target="#parentCarousel"
+          ></button>
+          <button
+            data-bs-target="#parentCarousel"
+            data-bs-slide-to="1"
+          ></button>
+          <button
+            data-bs-target="#parentCarousel"
+            data-bs-slide-to="2"
+          ></button>
+        </div>
+
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+          <!-- Items -->
+          <div class="carousel-item active">
+            <img src="../ images/carousel1.jpg" alt="" class="img-fluid" />
+            <div class="carousel-caption">
+              <h4>First Slider</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../ images/carousel2.jpg" alt="" class="img-fluid" />
+            <div class="carousel-caption">
+              <h4>Second Slider</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../ images/carousel3.jpg" alt="" class="img-fluid" />
+            <div class="carousel-caption">
+              <h4>Third Slider</h4>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          data-bs-target="#parentCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-slide="next"
+          data-bs-target="#parentCarousel"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <hr />
+    <br />
+
+    <p class="bg-primary text-light display-2 text-center">
+      Carousel With Fade
+    </p>
+
+    <div class="container py-5">
+      <!-- Carousel -->
+      <div
+        class="carousel slide carousel-fade"
+        id="withFade"
+        data-bs-ride="carousel"
+      >
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+          <button
+            data-bs-target="#withFade"
+            class="active"
+            data-bs-slide-to="0"
+          ></button>
+          <button data-bs-target="#withFade" data-bs-slide-to="1"></button>
+        </div>
+        <!-- Inner -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../ images/carousel1.jpg" alt="" class="img-fluid" />
+            <div class="carousel-caption">
+              <h3>First With Fade</h3>
+              <p>Lorem ipsum dolor sit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../ images/carousel2.jpg" alt="" class="img-fluid" />
+            <div class="carousel-caption">
+              <h3>Second with Fade</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          data-bs-target="#withFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-target="#withFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <script src="../javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
